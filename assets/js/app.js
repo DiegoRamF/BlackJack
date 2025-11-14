@@ -105,7 +105,7 @@ const miModulo = (() => {
     };
 
     // Ganadores
-    const determinatGanador = () => {
+    const determinarGanador = () => {
         
         const [PuntosMinimos, puntosComputadora] = puntosJugadores;
 
@@ -133,7 +133,7 @@ const miModulo = (() => {
 
         } while ((puntosComputadora < PuntosMinimos) && (PuntosMinimos <= 21));
 
-        determinatGanador();
+        determinarGanador();
     };
 
     // Eventos
